@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POIRGA Project | Dyah Indana Zulfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="images/logo-dyah-portfolio.png" alt="Dyah Portfolio">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html#header">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== WHAT IS POIRGA + VIDEO ===== -->
+<section class="project-section">
+    <div class="container">
+        <h2>What is the POIRGA?</h2>
+        <p class="project-tagline">
+            Find the answer by watching the video below!
+        </p>
+
+        <div class="project-video">
+            <video controls>
+                <source src="images/PITCHING POIRGA.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+<!-- ===== MEANING ===== -->
+<section class="project-section alt-bg">
+    <div class="container">
+        <h2>Meaning</h2>
+        <p>
+            POIRGA is my biggest research project. Together with my team, I developed
+            POIRGA based on air pollution issues in my local area. By utilizing microalgae
+            as a carbon dioxide (CO₂) absorber and oxygen producer, combined with sensor
+            integration and real-time monitoring applications, POIRGA is expected to
+            become an effective and sustainable IoT-based solution.
+        </p>
+        <p class="paper-cta">
+            Interested in the technical details and research process?
+            <a href="images/lkti-poirga.pdf" target="_blank">
+                Read the full research paper (PDF)
+            </a>
+        </p>
+    </div>
+</section>
+
+<!-- ===== Project Development Process ===== -->
+<section class="project-section">
+    <div class="container">
+        <h2>Project Development Process</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>Prototype Design</h3>
+
+                <p>
+                    The initial phase focused on system architecture planning, 
+                    defining electronic component requirements and mechanical 
+                    structure to optimize microalgae-based CO₂ absorption.
+                </p>
+
+                <h4>System Architecture</h4>
+                <ul class="project-list">
+                    <li>Microcontroller: Arduino Uno</li>
+                    <li>CO₂ Sensor: MQ-135</li>
+                    <li>Lighting System: LED module</li>
+                    <li>Chamber structure designed for airflow stability</li>
+                </ul>
+
+                <h4>3D Mechanical Modeling</h4>
+                <p>
+                    A detailed 3D model of the microalgae lamp structure was 
+                    developed using Prisma 3D to evaluate geometry, component 
+                    placement, and structural stability prior to fabrication.
+                </p>
+
+                <h4>Electronic Circuit Design</h4>
+                <p>
+                    Circuit schematics were created using Fritzing to visualize 
+                    component interconnections and ensure accurate integration 
+                    between sensor modules, microcontroller, and lighting system.
+                </p>
+
+                <h4>Hardware Integration & Simulation</h4>
+                <p>
+                    All electronic components were assembled into a functional 
+                    prototype and tested to verify signal acquisition, sensor 
+                    responsiveness, and system-level integration before field testing.
+                </p>
+
+                <div class="timeline-images">
+
+                    <figure class="timeline-figure">
+                        <img src="images/3d-poirga.png"
+                            alt="3D mechanical modeling using Prisma 3D"
+                            class="clickable-image">
+                        <figcaption>3D POIRGA Design</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/mikrokontroler.png"
+                            alt="Electronic circuit schematic using Fritzing"
+                            class="clickable-image">
+                        <figcaption>3D Hardware Design</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/hardware.png"
+                            alt="Integrated hardware prototype assembly"
+                            class="clickable-image">
+                        <figcaption>Hardware Circuit</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            
+            <div class="timeline-item">
+                <h3>Prototype Development</h3>
+                <p>
+                    The prototype was constructed using recycled materials, including PVC pipes, lightweight metal, and acrylic tubes. 
+                    The microalgae lamp roof was heat-shaped and assembled into a trapezoidal structure, then coated with matte and protective layers for durability. 
+                    A transparent acrylic tube was used as the cultivation chamber to optimize light transmission for photosynthesis. 
+                    Electronic components were housed in a corrosion-resistant metal enclosure, with structured cable management and a reinforced base to ensure stability and long-term functionality.
+                </p>
+                <div class="timeline-images">
+                    <figure class="timeline-figure">
+                        <img src="images/besi-bekas.jpg"
+                            alt="Recycled metal material preparation"
+                            class="clickable-image">
+                        <figcaption>Sanding the Iron Bowl</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/rangka-besi-jadi.jpeg"
+                            alt="Metal frame structural assembly"
+                            class="clickable-image">
+                        <figcaption>Iron Bowl After Painting</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/pilok-atap.jpg"
+                            alt="Surface finishing and coating process"
+                            class="clickable-image">
+                        <figcaption>Painting a roof made from used PVC pipes</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+            <div class="timeline-item">
+                <h3>Microalgae Cultivation</h3>
+                <p>
+                    The cultivation phase began with the preparation of a nutrient medium to support optimal growth of <i>Chlorella sp.</i> 
+                    Organic fertilizer was dissolved in water and combined with natural pond water containing microalgae to enrich microbial diversity. 
+                    Hydrilla was added to maintain oxygen balance within the system through photosynthesis. 
+                    The culture was exposed to continuous sunlight, with adequate ventilation to ensure proper gas exchange. 
+                    At night, LED lighting with an appropriate spectrum was provided to sustain photosynthetic activity and maintain consistent CO₂ absorption performance.
+                </p>
+                <div class="timeline-images">
+                    <figure class="timeline-figure">
+                        <img src="images/mikroalga-cultivation.jpeg"
+                            alt="Microalgae cultivation chamber setup"
+                            class="clickable-image">
+                        <figcaption>Microalgae Cultivation Process</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Experimental Setup</h3>
+                <p>
+                    The experiment was conducted in two sealed chambers (19,440 cm³ each) to maintain controlled and comparable conditions. 
+                    One chamber contained the microalgae-based system, while the other functioned as a control without treatment. 
+                    CO₂ was generated through controlled paper combustion to simulate elevated carbon concentration. 
+                    The microalgae system was positioned for optimal LED exposure to sustain photosynthetic activity during testing. 
+                    CO₂ levels were monitored in real time using an MQ-135 sensor integrated with an Arduino Uno microcontroller.
+                </p>
+                <div class="timeline-images">
+                    <figure class="timeline-figure">
+                        <img src="images/trial-poirga.jpeg"
+                            alt="Controlled experimental chamber testing"
+                            class="clickable-image">
+                        <figcaption>Testing the MQ-135 Sensor</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/trial-poirga-2.jpeg"
+                            alt="Surface finishing and coating process"
+                            class="clickable-image">
+                        <figcaption>Assembling Hardware</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/trial-poirga-3.jpeg"
+                            alt="Surface finishing and coating process"
+                            class="clickable-image">
+                        <figcaption>POIRGA during trial</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Data Analysis & System Evaluation</h3>
+                <p>
+                    CO₂ concentration data from both experimental and control chambers 
+                    were analyzed using descriptive statistical methods under controlled 
+                    environmental conditions (19,440 cm³ volume, 88% humidity, 26.7°C). 
+                    Measurements were recorded at 2-minute intervals over a 14-minute period.
+                </p>
+
+                <h4>Performance Results</h4>
+                <ul class="project-list">
+                    <li>Initial concentration: 468 ppm (both conditions)</li>
+                    <li>With microalgae: 366.8 ppm (Minute 14)</li>
+                    <li>Without microalgae: 400.6 ppm (Minute 14)</li>
+                    <li>Average absorption efficiency (per interval): <strong>8.25%</strong></li>
+                    <li>Peak interval efficiency: <strong>12%</strong> (Minute 8)</li>
+                </ul>
+
+                <h4>Signal Processing & Calibration</h4>
+                <p>
+                    Raw analog values from the MQ-135 sensor were converted to ppm using 
+                    a calibrated linear transformation:
+                </p>
+
+                <div class="formula-box">
+                    ppm = (rawValue − 400) × 2
+                </div>
+
+                <p>
+                    Where 400 ppm represents atmospheric baseline concentration and 
+                    2 is the empirically determined scaling factor.
+                </p>
+
+                <h4>Absorption Efficiency Model</h4>
+
+                <div class="formula-box">
+                    η = (CO₂<sub>initial</sub> − CO₂<sub>final</sub>) / CO₂<sub>initial</sub> × 100%
+                </div>
+
+                <p>
+                    This model quantifies net carbon reduction performance 
+                    within the chamber environment.
+                </p>
+
+                <div class="timeline-images">
+                    <figure class="timeline-figure">
+                        <img src="images/graph-poirga.png"
+                            alt="CO2 concentration reduction graph"
+                            class="clickable-image">
+                        <figcaption>CO₂ Reduction Performance Graph</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== MY CONTRIBUTION ===== -->
+<section class="project-section alt-bg">
+    <div class="container">
+        <h2>My Contribution</h2>
+
+        <div class="contribution-wrapper">
+
+            <!-- TEAM LEAD -->
+            <div class="contribution-block">
+                <h3>Team Leadership & Project Management</h3>
+                <ul>
+                    <li>Led system architecture planning and task distribution</li>
+                    <li>Defined experimental methodology and validation strategy</li>
+                    <li>Supervised prototype integration and testing phases</li>
+                </ul>
+            </div>
+
+            <!-- SYSTEM DEVELOPMENT -->
+            <div class="contribution-block">
+                <h3>System Development & Integration</h3>
+                <ul>
+                    <li>Sensor integration & Arduino IDE programming</li>
+                    <li>MQ-135 data acquisition & calibration modeling</li>
+                    <li>Android application development using MIT App Inventor</li>
+                    <li>Firebase Realtime Database integration</li>
+                    <li>UI design & mockup development using Canva</li>
+                </ul>
+
+                <!-- Gallery -->
+                <div class="project-gallery">
+                    <figure class="timeline-figure">
+                        <img src="images/splash-screen.png"
+                            alt="Mobile app splash screen UI"
+                            class="clickable-image">
+                        <figcaption>Splash Screen UI</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/dashboard.png"
+                            alt="Main dashboard interface"
+                            class="clickable-image">
+                        <figcaption>Dashboard Interface</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/co2-1.png"
+                            alt="CO2 monitoring interface"
+                            class="clickable-image">
+                        <figcaption>CO₂ Monitoring View Cathegory 1</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/co2-2.png"
+                            alt="CO2 data visualization"
+                            class="clickable-image">
+                        <figcaption>CO₂ Monitoring View Cathegory 2</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/co2-3.png"
+                            alt="CO2 historical data view"
+                            class="clickable-image">
+                        <figcaption>CO₂ Monitoring View Cathegory 3</figcaption>
+                    </figure>
+
+                    <figure class="timeline-figure">
+                        <img src="images/suhu.png"
+                            alt="Temperature monitoring interface"
+                            class="clickable-image">
+                        <figcaption>Temperature & Humidity Data</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- RESEARCH -->
+            <div class="contribution-block">
+                <h3>Research & Scientific Communication</h3>
+                <ul>
+                    <li>Authored Methodology and Results & Discussion sections of the research paper</li>
+                    <li>Performed statistical interpretation and efficiency modeling</li>
+                    <li>Formulated experimental validation and performance conclusions</li>
+                    <li>Delivered formal research presentations and system demonstrations</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROTOTYPE ===== -->
+<section class="project-section">
+    <div class="container">
+        <h2>Prototype</h2>
+            <figure class="prototype-figure">
+                <img src="images/prototype-poirga.jpeg"
+                    alt="Final POIRGA prototype system"
+                    class="project-prototype clickable-image">
+                <figcaption>Final POIRGA Prototype System</figcaption>
+            </figure>
+    </div>        
+</section>
+
+<!-- ===== ACHIEVEMENTS ===== -->
+<section class="project-section alt-bg">
+    <div class="container">
+        <h2>Achievements</h2>
+
+        <p>
+            Awarded <strong>3rd Place - 
+                <a href="forestshare.html" class="achievement-link">
+                    Forestshare 6.0 ITB (2025)
+                </a>
+            </strong>
+        </p>
+
+        <p>
+            Finalist - 
+            <strong>
+                <a href="injection.html" class="achievement-link">
+                    INJECTION ITS (2025)
+                </a>
+            </strong>
+        </p>
+
+    </div>
+</section>
+
+<!-- ===== IMAGE MODAL ===== -->
+<div id="imageModal" class="image-modal">
+    <span class="modal-close">&times;</span>
+
+    <button class="modal-nav prev">&#10094;</button>
+    <button class="modal-nav next">&#10095;</button>
+
+    <div class="modal-wrapper">
+        <img class="modal-content" id="modalImg">
+        <p class="modal-caption" id="modalCaption"></p>
+    </div>
+</div>
+
+<script src="modal.js"></script>
+
+</body>
+</html>

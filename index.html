@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Dyah Indana Zulfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="images/logo-dyah-portfolio.png" alt="Dyah Portfolio">
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div id="header">
+    <div class="container">
+        
+        <div class="header-text">
+            <h1>Hi, I'm <span>Dyah</span></h1>
+            <p class="subtitle">Aspiring Software & Computer Engineering Student</p>
+            <a href="#about" class="hero-btn">View Academic Profile</a>
+        </div>
+    </div>
+</div>
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">
+                    <span class="tittle-main">Get to know</span>
+                    <span class="tittle-accent">me!</span>
+                </h1>
+                <p>I’m Dyah Indana Zulfa, a 2025 high school graduate from Indonesia with a strong academic interest in computer science and engineering. Through coursework and student-led projects, I have developed hands-on experience in embedded systems, IoT prototyping, and foundational programming. These experiences have strengthened my interest in pursuing further studies in software and computer engineering–related fields.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    <p class="tab-links" onclick="opentab(event, 'currently')">Currently</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="skills-grid">
+                        <div class="skill-group">
+                            <h3>Embedded Systems & IoT</h3>
+                            <div class="skill-items">
+                                <img src="images/arduino.png" alt="Arduino IDE" class="skill-icon">
+                                <img src="images/cpp.png" alt="C++" class="skill-icon">
+                                <img src="images/firebase.png" alt="Firebase" class="skill-icon">
+                                <span class="skill-text">Microcontroller Prototyping</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>App Development</h3>
+                            <div class="skill-items">
+                                <img src="images/mit-app-inventor.png" alt="MIT App Inventor" class="skill-icon">
+                                <img src="images/android.png" alt="Android" class="skill-icon">
+                                <span class="skill-text">Android App Prototyping</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Web Development</h3>
+                            <div class="skill-items">
+                                <img src="images/html.webp" alt="HTML" class="skill-icon">
+                                <img src="images/css.webp" alt="CSS" class="skill-icon">
+                                <img src="images/javascript.webp" alt="JavaScript" class="skill-icon">
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>UI Design</h3>
+                            <div class="skill-items">
+                                <img src="images/canva.png" alt="Canva" class="skill-icon">
+                                <span class="skill-text">UI Mockup & Interface Design</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Research</h3>
+                            <div class="skill-items">
+                                <span class="skill-text">Scientific Writing for Research & Competitions</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Languages</h3>
+                            <div class="skill-items language-list">
+
+                                <div class="language-item">
+                                    <img src="images/ukbi.jpg" alt="UKBI" class="skill-icon lang-icon">
+                                    <span class="skill-text">Indonesian (Native)</span>
+                                </div>
+
+                                <div class="language-item">
+                                    <img src="images/ielts.jpg" alt="IELTS" class="skill-icon lang-icon">
+                                    <span class="skill-text">English (Upper-Intermediate)</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-contents" id="experiences">
+                    <div class="timeline-exp">
+
+                        <div class="timeline-exp-item">
+                            <div class="timeline-exp-dot"></div>
+                            <div class="timeline-exp-content">
+                                <span class="timeline-exp-date">Aug 2023 – Feb 2025</span>
+                                <h4>Student Ambassador</h4>
+                                <p>Pancasila Student Profile Strengthening Project (P5), SMAN 1 Tayu</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-exp-item">
+                            <div class="timeline-exp-dot"></div>
+                            <div class="timeline-exp-content">
+                                <span class="timeline-exp-date">Apr 2024 – May 2024</span>
+                                <h4>Chairman Committee</h4>
+                                <p>P5 Innovation & Technology Fair</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-exp-item">
+                            <div class="timeline-exp-dot"></div>
+                            <div class="timeline-exp-content">
+                                <span class="timeline-exp-date">Jan 2024 – Feb 2024</span>
+                                <h4>Project Supervisor</h4>
+                                <p>P5 Innovation & Technology Project: Echotechno Lamp</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-exp-item">
+                            <div class="timeline-exp-dot"></div>
+                            <div class="timeline-exp-content">
+                                <span class="timeline-exp-date">Jul 2023 – Jul 2024</span>
+                                <h4>Scientific Committee</h4>
+                                <p>Student Scientific Club, SMAN 1 Tayu</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-exp-item">
+                            <div class="timeline-exp-dot"></div>
+                            <div class="timeline-exp-content">
+                                <span class="timeline-exp-date">Sep 2023 – Oct 2023</span>
+                                <h4>Project Supervisor</h4>
+                                <p>Class Short Film Project – P5 Program</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-contents" id="education">
+
+                    <div class="edu-card">
+                        <span class="edu-year">Jul 2022 – May 2025</span>
+
+                        <h4>High School Diploma</h4>
+                        <p class="edu-school">SMAN 1 Tayu · Central Java, Indonesia</p>
+
+                        <div class="edu-stats">
+                            <div class="stat-box">
+                                <span class="stat-number">91.72</span>
+                                <span class="stat-label">Final GPA (100 Scale)</span>
+                            </div>
+
+                            <div class="stat-box">
+                                <span class="stat-number">6<small>th</small></span>
+                                <span class="stat-label">Overall Cohort Rank</span>
+                            </div>
+                        </div>
+
+                        <ul class="edu-details">
+                            <li>
+                                Consistently ranked among the <strong>top academic performers</strong>,
+                                achieving <strong>1st place</strong> in Grade 10 and <strong>2nd place</strong> in Grades 11–12 (class ranking)
+                            </li>
+                            <li>
+                                Academic focus on <strong>informatics, advanced mathematics, and physics</strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="tab-contents" id="currently">
+                    <div class="current-card">
+
+                        <div class="current-item">
+                            <span class="current-label">Tutoring</span>
+                            <p>Private SNBT 2026 preparation</p>
+                        </div>
+
+                        <div class="current-item">
+                            <span class="current-label">Learning</span>
+                            <p>
+                                HTML, CSS, JavaScript through YouTube
+                                <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i&si=XN34ETF9X-XVzGh8" target="_blank">↗</a>
+                            </p>
+                            <p>
+                                Turkish language through YouTube and Duolingo
+                                <a href="https://youtube.com/playlist?list=PLt4ygjU3XRvaTDqSSRcxK3XKqWc3IJUS3&si=tz3sOM3I2mH2QTcu" target="_blank">↗</a>
+                            </p>
+                        </div>
+
+                        <div class="current-item">
+                            <span class="current-label">Reading</span>
+                            <p>
+                                <em>The Alchemist by Paulo Coelho</em>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------- portfolio ----------->
+<div id="portfolio">
+    <div class="container">
+
+        <h1 class="sub-title">
+            <span class="tittle-main">My</span>
+            <span class="tittle-accent">Portfolio</span>
+        </h1>
+
+        <!-- Portfolio Menu -->
+        <div class="portfolio-menu">
+            <button class="portfolio-tab active" data-target="projects">Projects</button>
+            <button class="portfolio-tab" data-target="achievements">Achievements & Certifications</button>
+        </div>
+
+        <!-- Projects -->
+        <div class="portfolio-content active" id="projects">
+
+            <div class="portfolio-list">
+                <a href="poirga.html" class="portfolio-item">
+                    <h3>POIRGA</h3>
+                    <p>IoT-based microalgae system for air pollution mitigation</p>
+                </a>
+
+                <a href="project-cosmos.html" class="portfolio-item">
+                    <h3>LED-Controlled Cosmos Growth</h3>
+                    <p>Arduino-based indoor plant optimization</p>
+                </a>
+
+                <a href="aku-gerak-ceria.html" class="portfolio-item">
+                    <h3>Aku Gerak Ceria</h3>
+                    <p>AI & AR interactive learning media</p>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Achievements Preview -->
+<div class="portfolio-content" id="achievements">
+
+    <div class="portfolio-list">
+
+        <a href="forestshare.html" class="portfolio-item featured">
+            <h3>3rd Place – Forestshare 6.0</h3>
+            <p>National Scientific Writing Competition · ITB · 2025</p>
+        </a>
+
+        <a href="injection.html" class="portfolio-item">
+            <h3>Semifinalist – INJECTION EPW</h3>
+            <p>National Scientific Paper Competition · ITS · 2025</p>
+        </a>
+
+        <a href="krenova.html" class="portfolio-item">
+            <h3>Finalist – Krenova Pati Innovation Awards</h3>
+            <p>Regional Innovation Competition · 2024</p>
+        </a>
+
+        <a href="scholarships.html" class="portfolio-item">
+            <h3>Scholarship Awards</h3>
+            <p>Merit-based & Impact-based Scholarships</p>
+        </a>
+
+        <a href="certifications.html" class="portfolio-item">
+            <h3>Certifications</h3>
+            <p>IELTS · UKBI · Generative AI</p>
+        </a>
+
+    </div>
+
+</div>
+
+<!-----------contact----------->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">
+            Contact <span class="accent-text">Me</span>
+        </h1>
+
+        <div class="contact-wrapper">
+            
+            <div class="contact-left">
+                <p><i class="fas fa-paper-plane"></i> dyahindana@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +62 819 1645 3142</p>
+
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/dyahindana" target="_blank" class="linkedin-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/dyahindana</span>
+                    </a>
+                </div>
+
+                <a href="images/cv-dyah.pdf" download class="btn btn2">
+                    Download CV
+                </a>
+            </div>
+
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mpqjrawg" method="POST" id="contact-form">
+    
+                    <input type="hidden" name="_subject" value="New message from Dyah's Portfolio">
+
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                    <p id="form-status"></p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 Dyah Indana Zulfa.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname){
+        var clickedTab = event.currentTarget;
+        var content = document.getElementById(tabname);
+
+        if (clickedTab.classList.contains("active-link")) {
+            clickedTab.classList.remove("active-link");
+            content.classList.remove("active-tab");
+            return;
+        }
+
+        for (let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        clickedTab.classList.add("active-link");
+        content.classList.add("active-tab");
+    }
+
+</script>
+<script>
+const portfolioTabs = document.querySelectorAll(".portfolio-tab");
+const portfolioContents = document.querySelectorAll(".portfolio-content");
+
+portfolioTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+        portfolioTabs.forEach(t => t.classList.remove("active"));
+        portfolioContents.forEach(c => c.classList.remove("active"));
+
+        tab.classList.add("active");
+        document.getElementById(tab.dataset.target).classList.add("active");
+    });
+});
+</script>
+<script>
+const sections = document.querySelectorAll("#header, #about, #portfolio, #contact");
+const navLinks = document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
+    const sectionHeight = section.offsetHeight;
+
+    if (window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight) {
+      current = section.id;
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
+
+<script>
+const form = document.getElementById("contact-form");
+const status = document.getElementById("form-status");
+
+form.addEventListener("submit", async function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    });
+
+    if (response.ok) {
+        status.innerHTML = "✔ Message sent successfully!";
+        status.style.color = "#90e5e6";
+        form.reset();
+    } else {
+        status.innerHTML = "Oops! Something went wrong.";
+        status.style.color = "red";
+    }
+});
+</script>
+
+</body>
+</html>
