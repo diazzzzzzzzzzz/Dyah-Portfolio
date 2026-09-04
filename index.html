@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - Dyah Indana Zulfa</title>
+    <title>Portfolio Website | Dyah Indana Zulfa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -14,7 +17,7 @@
 <header class="navbar">
   <div class="nav-container">
     <a href="index.html" class="logo">
-      <img src="images/logo-dyah-portfolio.png" alt="Dyah Portfolio">
+      <img src="images/cat-lover.png" alt="Dyah Portfolio">
     </a>
 
     <ul class="nav-links">
@@ -27,34 +30,65 @@
 </header>
 
 <div id="header">
-    <div class="container">
-        
-        <div class="header-text">
-            <h1>Hi, I'm <span>Dyah</span></h1>
-            <p class="subtitle">Aspiring Software & Computer Engineering Student</p>
-            <a href="#about" class="hero-btn">View Academic Profile</a>
+    <div class="container hero-container">
+
+        <div class="hero-text">
+            <p class="hero-greeting">hello, i'm</p>
+
+            <h1>
+                Dyah <span>Indana Zulfa</span>
+            </h1>
+
+            <p class="hero-description">
+                An Information Technology student who enjoys
+                building things, exploring technology, and turning
+                ideas into something useful.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#about" class="hero-btn">
+                    Get to know me <span>→</span>
+                </a>
+
+                <a href="#portfolio" class="hero-secondary-btn">
+                    See my work
+                </a>
+            </div>
         </div>
+
+        <div class="hero-visual">
+            <div class="hero-photo">
+                <img src="images/dyah cantik.jpg" alt="Dyah Indana Zulfa">
+            </div>
+
+            <img
+                src="images/cat gif.gif"
+                alt="Cute animated cat"
+                class="cat"
+            >
+
+            <span class="hero-decoration decoration-one">✦</span>
+            <span class="hero-decoration decoration-two">♡</span>
+        </div>
+
     </div>
 </div>
-<!-----------about----------->
+
 <div id="about">
     <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/user.png">
-            </div>
+        <div class="about-content">
             <div class="about-col-2">
                 <h1 class="sub-title">
                     <span class="tittle-main">Get to know</span>
                     <span class="tittle-accent">me!</span>
                 </h1>
-                <p>I’m Dyah Indana Zulfa, a 2025 high school graduate from Indonesia with a strong academic interest in computer science and engineering. Through coursework and student-led projects, I have developed hands-on experience in embedded systems, IoT prototyping, and foundational programming. These experiences have strengthened my interest in pursuing further studies in software and computer engineering–related fields.</p>
+                <p>I'm Dyah Indana Zulfa, an Information Technology student at Institut Teknologi Sepuluh Nopember with a growing interest in software development, technology, and problem-solving, with experience in IoT, embedded systems, scientific research, and student-led projects. Currently, I'm developing my programming and web development skills through hands-on projects. </p>
 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab(event, 'experiences')">Experiences</p>
-                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
-                    <p class="tab-links" onclick="opentab(event, 'currently')">Currently</p>
+                <div class="tab-titles" role="tablist" aria-label="About me">
+                    <button type="button" class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</button>
+                    <button type="button" class="tab-links" onclick="opentab(event, 'experiences')">Experiences</button>
+                    <button type="button" class="tab-links" onclick="opentab(event, 'education')">Education</button>
+                    <button type="button" class="tab-links" onclick="opentab(event, 'currently')">Currently</button>
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <div class="skills-grid">
@@ -204,32 +238,21 @@
                 </div>
 
                 <div class="tab-contents" id="currently">
-                    <div class="current-card">
+                    <div class="current-grid">
+                        <article class="current-item">
+                            <span class="current-label">LEARNING</span>
+                            <p>Building strong foundations in C, C++, and Python for academic work and robotics development.</p>
+                        </article>
 
-                        <div class="current-item">
-                            <span class="current-label">Tutoring</span>
-                            <p>Private SNBT 2026 preparation</p>
-                        </div>
+                        <article class="current-item">
+                            <span class="current-label">PREPARING</span>
+                            <p>Preparing to apply for the ITS Robotics Research Team through consistent technical practice and hands-on projects.</p>
+                        </article>
 
-                        <div class="current-item">
-                            <span class="current-label">Learning</span>
-                            <p>
-                                HTML, CSS, JavaScript through YouTube
-                                <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i&si=XN34ETF9X-XVzGh8" target="_blank">↗</a>
-                            </p>
-                            <p>
-                                Turkish language through YouTube and Duolingo
-                                <a href="https://youtube.com/playlist?list=PLt4ygjU3XRvaTDqSSRcxK3XKqWc3IJUS3&si=tz3sOM3I2mH2QTcu" target="_blank">↗</a>
-                            </p>
-                        </div>
-
-                        <div class="current-item">
-                            <span class="current-label">Reading</span>
-                            <p>
-                                <em>The Alchemist by Paulo Coelho</em>
-                            </p>
-                        </div>
-
+                        <article class="current-item">
+                            <span class="current-label">CREATING</span>
+                            <p>Curating selected projects, achievements, and interface work into a portfolio that reflects my real learning journey.</p>
+                        </article>
                     </div>
                 </div>
 
@@ -237,7 +260,7 @@
         </div>
     </div>
 </div>
-<!----------- portfolio ----------->
+
 <div id="portfolio">
     <div class="container">
 
@@ -246,13 +269,13 @@
             <span class="tittle-accent">Portfolio</span>
         </h1>
 
-        <!-- Portfolio Menu -->
+        
         <div class="portfolio-menu">
             <button class="portfolio-tab active" data-target="projects">Projects</button>
             <button class="portfolio-tab" data-target="achievements">Achievements & Certifications</button>
         </div>
 
-        <!-- Projects -->
+        
         <div class="portfolio-content active" id="projects">
 
             <div class="portfolio-list">
@@ -274,7 +297,7 @@
 
         </div>
 
-        <!-- Achievements Preview -->
+        
 <div class="portfolio-content" id="achievements">
 
     <div class="portfolio-list">
@@ -308,7 +331,7 @@
 
 </div>
 
-<!-----------contact----------->
+
 <div id="contact">
     <div class="container">
         <h1 class="sub-title">
@@ -321,10 +344,21 @@
                 <p><i class="fas fa-paper-plane"></i> dyahindana@gmail.com</p>
                 <p><i class="fas fa-phone"></i> +62 819 1645 3142</p>
 
-                <div class="social-icons">
-                    <a href="https://linkedin.com/in/dyahindana" target="_blank" class="linkedin-link">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/dyahindana"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link">
                         <i class="fab fa-linkedin"></i>
                         <span>linkedin.com/in/dyahindana</span>
+                    </a>
+
+                    <a href="https://instagram.com/__seiko0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>instagram.com/__seiko0</span>
                     </a>
                 </div>
 
@@ -357,98 +391,88 @@
 </div>
 
 <script>
+    const tablinks = document.getElementsByClassName("tab-links");
+    const tabcontents = document.getElementsByClassName("tab-contents");
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(event, tabname){
-        var clickedTab = event.currentTarget;
-        var content = document.getElementById(tabname);
-
-        if (clickedTab.classList.contains("active-link")) {
-            clickedTab.classList.remove("active-link");
-            content.classList.remove("active-tab");
-            return;
-        }
-
-        for (let tablink of tablinks){
+    function opentab(event, tabname) {
+        for (const tablink of tablinks) {
             tablink.classList.remove("active-link");
         }
-        for (let tabcontent of tabcontents){
+
+        for (const tabcontent of tabcontents) {
             tabcontent.classList.remove("active-tab");
         }
 
-        clickedTab.classList.add("active-link");
-        content.classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
     }
-
 </script>
 <script>
-const portfolioTabs = document.querySelectorAll(".portfolio-tab");
-const portfolioContents = document.querySelectorAll(".portfolio-content");
+    const portfolioTabs = document.querySelectorAll(".portfolio-tab");
+    const portfolioContents = document.querySelectorAll(".portfolio-content");
 
-portfolioTabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-        portfolioTabs.forEach(t => t.classList.remove("active"));
-        portfolioContents.forEach(c => c.classList.remove("active"));
+    portfolioTabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            portfolioTabs.forEach(t => t.classList.remove("active"));
+            portfolioContents.forEach(c => c.classList.remove("active"));
 
-        tab.classList.add("active");
-        document.getElementById(tab.dataset.target).classList.add("active");
+            tab.classList.add("active");
+            document.getElementById(tab.dataset.target).classList.add("active");
+        });
     });
-});
 </script>
 <script>
-const sections = document.querySelectorAll("#header, #about, #portfolio, #contact");
-const navLinks = document.querySelectorAll(".nav-links a");
+    const sections = document.querySelectorAll("#header, #about, #portfolio, #contact");
+    const navLinks = document.querySelectorAll(".nav-links a");
 
-window.addEventListener("scroll", () => {
-  let current = "";
+    window.addEventListener("scroll", () => {
+    let current = "";
 
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop - 150;
-    const sectionHeight = section.offsetHeight;
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 150;
+        const sectionHeight = section.offsetHeight;
 
-    if (window.scrollY >= sectionTop &&
-        window.scrollY < sectionTop + sectionHeight) {
-      current = section.id;
-    }
-  });
-
-  navLinks.forEach(link => {
-    link.classList.remove("active");
-
-    if (link.getAttribute("href") === "#" + current) {
-      link.classList.add("active");
-    }
-  });
-});
-</script>
-
-<script>
-const form = document.getElementById("contact-form");
-const status = document.getElementById("form-status");
-
-form.addEventListener("submit", async function(e) {
-    e.preventDefault();
-    const data = new FormData(form);
-
-    const response = await fetch(form.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight) {
+        current = section.id;
         }
     });
 
-    if (response.ok) {
-        status.innerHTML = "✔ Message sent successfully!";
-        status.style.color = "#90e5e6";
-        form.reset();
-    } else {
-        status.innerHTML = "Oops! Something went wrong.";
-        status.style.color = "red";
-    }
-});
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+        }
+    });
+    });
+</script>
+
+<script>
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("form-status");
+
+    form.addEventListener("submit", async function(e) {
+        e.preventDefault();
+        const data = new FormData(form);
+
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            status.innerHTML = "✔ Message sent successfully!";
+            status.style.color = "#D98268";
+            form.reset();
+        } else {
+            status.innerHTML = "Oops! Something went wrong.";
+            status.style.color = "red";
+        }
+    });
 </script>
 
 </body>
